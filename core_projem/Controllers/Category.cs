@@ -15,6 +15,7 @@ namespace core_projem.Controllers
         {
             var values = cm.GetList();
             return View(values);
+
         }
     }
 }

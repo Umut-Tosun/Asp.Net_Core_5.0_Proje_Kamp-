@@ -5,6 +5,90 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\weberror\css\font-awesome.css" />
+    <None Include="wwwroot\weberror\css\style.css" />
+    <None Include="wwwroot\weberror\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\weberror\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\weberror\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\weberror\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\weberror\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\weberror\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\weberror\images\banner1.jpg" />
+    <None Include="wwwroot\weberror\index.html" />
+    <None Include="wwwroot\weberror\w3layouts-license.txt" />
+    <None Include="wwwroot\web\about.html" />
+    <None Include="wwwroot\web\blog1.html" />
+    <None Include="wwwroot\web\blog2.html" />
+    <None Include="wwwroot\web\blog3.html" />
+    <None Include="wwwroot\web\contact.html" />
+    <None Include="wwwroot\web\css\bootstrap.css" />
+    <None Include="wwwroot\web\css\contact.css" />
+    <None Include="wwwroot\web\css\fontawesome-all.css" />
+    <None Include="wwwroot\web\css\jquery.desoslide.css" />
+    <None Include="wwwroot\web\css\single.css" />
+    <None Include="wwwroot\web\css\style.css" />
+    <None Include="wwwroot\web\images\1.jpg" />
+    <None Include="wwwroot\web\images\2.jpg" />
+    <None Include="wwwroot\web\images\3.jpg" />
+    <None Include="wwwroot\web\images\4.jpg" />
+    <None Include="wwwroot\web\images\5.jpg" />
+    <None Include="wwwroot\web\images\6.jpg" />
+    <None Include="wwwroot\web\images\7.jpg" />
+    <None Include="wwwroot\web\images\8.jpg" />
+    <None Include="wwwroot\web\images\b1.jpg" />
+    <None Include="wwwroot\web\images\b2.jpg" />
+    <None Include="wwwroot\web\images\b3.jpg" />
+    <None Include="wwwroot\web\images\b4.jpg" />
+    <None Include="wwwroot\web\images\b5.jpg" />
+    <None Include="wwwroot\web\images\banner1.jpg" />
+    <None Include="wwwroot\web\images\banner2.jpg" />
+    <None Include="wwwroot\web\images\banner3.jpg" />
+    <None Include="wwwroot\web\images\banner4.jpg" />
+    <None Include="wwwroot\web\images\banner5.jpg" />
+    <None Include="wwwroot\web\images\left.png" />
+    <None Include="wwwroot\web\images\m1.jpg" />
+    <None Include="wwwroot\web\images\m2.jpg" />
+    <None Include="wwwroot\web\images\m3.jpg" />
+    <None Include="wwwroot\web\images\m4.jpg" />
+    <None Include="wwwroot\web\images\right.png" />
+    <None Include="wwwroot\web\images\t1.jpg" />
+    <None Include="wwwroot\web\images\t2.jpg" />
+    <None Include="wwwroot\web\images\t3.jpg" />
+    <None Include="wwwroot\web\images\t4.jpg" />
+    <None Include="wwwroot\web\images\Thumbs.db" />
+    <None Include="wwwroot\web\images\top_up.png" />
+    <None Include="wwwroot\web\index.html" />
+    <None Include="wwwroot\web\js\bootstrap.js" />
+    <None Include="wwwroot\web\js\easing.js" />
+    <None Include="wwwroot\web\js\jquery-2.2.3.min.js" />
+    <None Include="wwwroot\web\js\jquery.desoslide.js" />
+    <None Include="wwwroot\web\js\jquery.flexisel.js" />
+    <None Include="wwwroot\web\js\modernizr.custom.min.js" />
+    <None Include="wwwroot\web\js\move-top.js" />
+    <None Include="wwwroot\web\login.html" />
+    <None Include="wwwroot\web\register.html" />
+    <None Include="wwwroot\web\single.html" />
+    <None Include="wwwroot\web\w3layouts-license.txt" />
+    <None Include="wwwroot\web\webfonts\fa-brands-400.eot" />
+    <None Include="wwwroot\web\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\web\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\web\webfonts\fa-brands-400.woff" />
+    <None Include="wwwroot\web\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\web\webfonts\fa-regular-400.eot" />
+    <None Include="wwwroot\web\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\web\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\web\webfonts\fa-regular-400.woff" />
+    <None Include="wwwroot\web\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\web\webfonts\fa-solid-900.eot" />
+    <None Include="wwwroot\web\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\web\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\web\webfonts\fa-solid-900.woff" />
+    <None Include="wwwroot\web\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
       <PrivateAssets>all</PrivateAssets>
