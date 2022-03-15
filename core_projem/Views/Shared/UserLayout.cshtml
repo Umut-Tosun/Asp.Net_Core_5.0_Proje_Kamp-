@@ -80,38 +80,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </button>
 
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="~/Blog/Index">
-                                Ana Sayfa
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Bloglar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Hakkımızda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">İletişim</a>
-                        </li>
-                    </ul>
-                    <form action="#" method="post" class="form-inline my-2 my-lg-0 header-search">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Ara..." name="Search" required="">
-                        <button class="btn btn1 my-2 my-sm-0" type="submit">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </form>
-
-
-
-                </div>
+                @await Html.PartialAsync("partial1")
             </nav>
 
         </div>
-        @await Html.PartialAsync("partial1")
+       
     </header>
 
     @RenderBody()

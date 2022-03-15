@@ -1,0 +1,31 @@
+﻿@model EntityLayer.Concrete.Blog
+@{
+    ViewData["Title"] = "BlogAdd";
+    Layout = "~/Views/Shared/writerlayout.cshtml";
+}
+<h1>Yeni Blog Girişi</h1>
+<br />
+@using (Html.BeginForm("BlogAdd", "Blog", FormMethod.Post))
+{
+    @Html.Label("Blog Başlığı")
+    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogTitle, null, new { @class = "text-danger" })
+    <br />
+    @Html.Label("Blog Görsel")
+    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogImage, null, new { @class = "text-danger" })
+    <br />
+    @Html.Label("Blog Küçük Görsel")
+    @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control" })
+    <br />
+    @Html.Label("Blog Kategori")
+    @Html.DropDownListFor(x => x.CategoryID,(List<SelectListItem>)ViewBag.categoryvls, new { @class = "form-control" })
+    <br />
+    @Html.Label("Blog İçerigi")
+    @Html.TextAreaFor(x => x.Content,20,3,new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Content, null, new { @class = "text-danger" })
+    <br />
+    <button class="btn btn-primary">Kaydet</button>
+
+}
+

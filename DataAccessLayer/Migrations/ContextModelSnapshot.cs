@@ -152,23 +152,23 @@ namespace DataAccessLayer.Migrations
                     b.Property<DateTime>("ContactDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ContactMail")
-                        .HasColumnType("int");
+                    b.Property<string>("ContactMail")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ContactMessage")
-                        .HasColumnType("int");
+                    b.Property<string>("ContactMessage")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("ContactStatus")
                         .HasColumnType("bit");
 
-                    b.Property<int>("ContactSubject")
-                        .HasColumnType("int");
+                    b.Property<string>("ContactSubject")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ContactTitle")
-                        .HasColumnType("int");
+                    b.Property<string>("ContactTitle")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ContactUserName")
-                        .HasColumnType("int");
+                    b.Property<string>("ContactUserName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ContactID");
 
